@@ -22,7 +22,8 @@ li {
     background-size:cover;
     max-width:3000px;
     min-width: none;
-    padding-bottom: 430px;
+    max-height: fit-content;
+    padding-bottom: 700px;
     border-bottom: 3px solid black;
 
 }
@@ -74,12 +75,11 @@ li {
 
                 .divTextosobremi{
                     position: absolute;
-                    background-color: blueviolet;
-                    height: 200px;
+                    background-color:slategray;
                     width: 300px;
                     margin-left: 590px;
                     margin-top: 270px;
-                    color: black;
+                    color:black;
                     font-weight: bold;
                 }
 
@@ -110,7 +110,153 @@ li {
                 .divCarrousell{
                     margin: auto;
                     align-items: center;
-                }
-
 
             
+                }
+
+#seccionPoemas {
+
+}
+
+            .Nochesdiurnas{
+                
+                color: black;
+                font-weight: bolder;
+                position: absolute;
+                margin-top: 200px;
+                margin-left: 200px;
+                
+            }
+            .Paseodedeseos{
+                
+                font-weight: bolder;
+                position: absolute;
+                margin-top: 50px;
+                margin-left: 500px;
+            }
+
+
+
+
+
+/*FORMULARIO CONTACTOS*/
+                .contact_form{  
+                    width: 460px; 
+                    height: auto;
+                    margin: 80px auto;
+                    border-radius: 10px;  
+                    padding-top: 30px;
+                    padding-bottom: 20px;  
+                    background-color: #fbfbfb; 
+                    padding-left: 30px; 
+                  }
+                  
+                  
+                  input{
+                    background-color: #fbfbfb; 
+                    width: 408px; 
+                    height: 40px; 
+                    border-radius: 5px;  
+                    border-style: solid; 
+                    border-width: 1px; 
+                    border-color:black; 
+                    margin-top: 10px;  
+                    padding-left: 10px;
+                    margin-bottom: 20px; 
+                  }
+                  
+                  
+                  textarea{
+                    background-color: #fbfbfb; 
+                    width: 405px; 
+                    height: 150px; 
+                    border-radius: 5px;  
+                    border-style: solid; 
+                    border-width: 1px; 
+                    border-color: black; 
+                    margin-top: 10px;  
+                    padding-left: 10px;
+                    margin-bottom: 20px; 
+                    padding-top: 15px; 
+                  }
+                  
+                  
+                  label{
+                    display: block; 
+                    float: center;  
+                  }
+                  
+                  
+                  button{
+                    height: 45px; 
+                    padding-left: 5px;
+                    padding-right: 5px;   
+                    margin-bottom: 20px; 
+                    margin-top: 10px;   
+                    text-transform: uppercase;
+                    background-color: #37ee46; 
+                    border-color:black; 
+                    border-style: solid; 
+                    border-radius: 10px;  
+                    width: 420px;   
+                    cursor: pointer;
+                  }
+                  
+                  
+                  button p{
+                    color: #fff; 
+                  }
+                  
+                  
+                  span{
+                    color: black; 
+                  }
+                  
+                  
+                  .aviso{
+                    font-size: 13px;  
+                    color: #0e0e0e;  
+                  }
+                  
+                  
+                  h1{
+                    font-size: 39px;  
+                    text-align: letf; 
+                    padding-bottom: 20px; 
+                    color: black;
+                  }
+                  
+                  
+                  h3{
+                    font-size: 16px; 
+                    padding-bottom: 30px;
+                    color: #0e0e0e;   
+                  }
+                  
+                  
+                  p{
+                    font-size: 14px; 
+                    color: #0e0e0e; 
+                  }
+                  
+                  
+                  ::-webkit-input-placeholder {
+                   color: #a8a8a8;
+                  }
+                  
+                  
+                  ::-webkit-textarea-placeholder {
+                   color: #a8a8a8;
+                  }
+                  
+                  
+                  .formulario input:focus{
+                    outline:0;
+                    border: 1px solid #97d848;
+                  }
+                  
+                  
+                  .formulario textarea:focus{
+                    outline:0;
+                    border: 1px solid #97d848;
+                  }          
